@@ -1,5 +1,5 @@
 FROM python:alpine 
-LABEL maintainer="Valery Grusdev"
+LABEL maintainer="vgrusdev@gmail.com"
 
 RUN pip install flask
 COPY src /src/
